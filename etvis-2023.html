@@ -552,6 +552,16 @@ font-size: 1em;
 color: #A51330;
 }
 
+.orga p.title a{
+font-size: 1em;
+color: #A51330;
+text-decoration: underline;
+}
+
+.orga p.title a:hover{
+text-decoration: none;
+}
+
 .orga-2{
 text-align: center;
 /**font-size:16px;**/
@@ -1154,7 +1164,7 @@ function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);f
    <!-- <h2 class="gradient-h2">Eye Tracking and Visualization</h2> --> <!--<span><b>*** Deadline has been extended until Feb 17 ***</b></span>--> 
    <h2 class="h2">Workshop on Eye Tracking and Visualization</h2> <!--<span><b>*** Deadline has been extended until Feb 17 ***</b></span>--> 
    <div class="container-fluid bg-2"> 
-      <h4 class="h4">*** ETVIS 2023 will be co-located with <a rel="noreferrer noopener" href="https://etra.acm.org/2023/index.html" target="_blank">ETRA 2023</a> as a virtual event. ***</h4>
+      <h4 class="h4">*** ETVIS 2023 will be co-located with <a rel="noreferrer noopener" href="https://etra.acm.org/2023/index.html" target="_blank">ETRA 2023</a> in Tübingen ***</h4>
    </div>
 
    <div class="row" style="margin-top: 0em"> 
@@ -1318,10 +1328,6 @@ function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);f
       </thead> 
       <tbody> 
          <tr> 
-            <td class="col-md-6 tbl-right border-cl">Abstract Due</td> 
-            <td class="col-md-3 tbl-right border-cl">February 22, 2023 (not required)</td> 
-         </tr> 
-         <tr> 
             <td class="col-md-6 tbl-right border-cl">Final Submission Due</td> 
             <td class="col-md-3 tbl-right border-cl">February 22, 2023</td> 
          </tr> 
@@ -1355,14 +1361,19 @@ function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);f
          <h2 class="h2">Organizers</h2> 
          <hr/>
       </div> 
-      <div class="col-sm-4 orga" style="width: 100%; text-align: center;"> 
-         <p class="title">Michael Burch</p> 
-         <p>University of Applied Sciences, </br> Switzerland</p> 
+      <div class="col-sm-4 orga" style="width: 50%; text-align: center;"> 
+         <p class="title"><a rel="noreferrer noopener" href="https://www.fhgr.ch/en/persons/person/burch/" target="_blank">Michael Burch</a> </p> 
+         <p>University of Applied Sciences, </br>Chur, Switzerland</p> 
+      </div> 
+      <div class="col-sm-4 orga" style="width: 50%; text-align: center;"> 
+         <p class="title"><a rel="noreferrer noopener" href="https://www.jku.at/en/institute-of-computer-graphics/about-us/team/guenter-wallner/" target="_blank">Günter Wallner</a></p> 
+         <p>Johannes Kepler University, </br>Linz, Austria</p> 
+         <p>guenter.wallner[at]jku.at</p>
       </div> 
    </div> 
 </div> 
 <!-- ORGANIZERS -->
-<!-- Media Chair
+<!-- Media Chair --> 
 <div class="container-fluid bg-2" style="margin-top: 0em"> 
    <div class="row" style="margin-top: 0em"> 
       <div style="padding-bottom: 0em"> 
@@ -1370,13 +1381,25 @@ function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);f
          <hr>
       </div> 
       <div class="orga" style="text-align: center"> 
-         <p class="title">Sandeep Vidyapu</p> 
-         <p>University of Stuttgart</p> 
-         <p>sandeep.vidyapu[at]visus.uni-stuttgart.de</p> 
+         <p class="title"><a rel="noreferrer noopener" href="https://www.visus.uni-stuttgart.de/en/institute/team/Koch-00016/" target="_blank">Maurice Koch</a> </p> 
+         <p>University of Stuttgart,</br> Germany</p> 
       </div> 
    </div> 
 </div>  
---> 
+<!-- ORGANIZERS -->
+<!-- Publicity Chair --> 
+<div class="container-fluid bg-2" style="margin-top: 0em"> 
+   <div class="row" style="margin-top: 0em"> 
+      <div style="padding-bottom: 0em"> 
+         <h2 class="h2">Publicity Chair</h2> 
+         <hr>
+      </div> 
+      <div class="orga" style="text-align: center"> 
+         <p class="title"><a rel="noreferrer noopener" href="https://www.visus.uni-stuttgart.de/en/institute/team/Koch-00016/" target="_blank">Kun-Ting Chen</a> </p> 
+         <p>University of Stuttgart,</br>Germany</p> 
+      </div> 
+   </div> 
+</div>  
 <!-- ORGANIZERS --> 
 <!-- IPCS --> 
 <div class="container-fluid bg-2" style="margin-top: 0em"> 
@@ -1385,55 +1408,10 @@ function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);f
          <h2 class="h2">IPC</h2> 
          <hr class="sec-divider">
       </div>
-      <!--
-         <div class="col-sm-4 orga"> 
-            <p class="title">Tanja Blascheck</p> 
-            <p>University of Stuttgart, Germany</p> 
-         </div> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Pieter Blignaut</p> 
-            <p>University of the Free State, South Africa</p> 
-         </div>
-         <div class="col-sm-4 orga"> 
-            <p class="title">Arzu Çöltekin</p> 
-            <p>University of Applied Sciences and Arts Northwestern Switzerland, Switzerland</p> 
-         </div> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Andrew Duchowski</p> 
-            <p>Clemson University, USA</p> 
-         </div> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Almoctar Hassoumi</p> 
-            <p>ISAE-SUPAERO, France</p> 
-         </div>
-         <div class="col-sm-4 orga"> 
-            <p class="title">Christophe Hurter</p> 
-            <p>ENAC - Ecole Nationale de l’Aviation Civile, France</p> 
-         </div> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Pawel Kasprowski</p> 
-            <p>Silesian University of Technology, Poland</p> 
-         </div> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Robert Krüger</p> 
-            <p>Harvard University, USA</p> 
-         </div>
-         <div class="col-sm-12" style="padding-bottom:1em"> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Olivier Le Meur</p> 
-            <p>IRISA, France</p> 
-         </div> 
-         <div class="col-sm-4 orga"> 
-            <p class="title">Stanislav Popelka</p> 
-            <p>Palacký University Olomouc, Czech Republic/p&gt; </p>
-         </div> 
-      </div> 
-      -->
-      
       <div class="col-sm-12" style="padding-bottom:2em"> 
          <div class="col-sm-4 orga"> 
             <p class="title">Michael Burch</p> 
-            <p>University of Applied Sciences, </br> Switzerland</p> 
+            <p>University of Applied Sciences, </br>Switzerland</p> 
          </div> 
          <div class="col-sm-4 orga"> 
             <p class="title">Kun-Ting Chen</p> 
@@ -1441,7 +1419,7 @@ function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);f
          </div> 
          <div class="col-sm-4 orga"> 
             <p class="title">Cristina Conati</p> 
-            <p>University of British Columbia,</br> Canada</p> 
+            <p>University of British Columbia,</br>Canada</p> 
          </div>
       </div> 
       <div class="col-sm-12" style="padding-bottom:2em"> 
