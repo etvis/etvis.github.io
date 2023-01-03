@@ -579,13 +579,13 @@ a.btn-primary:hover {
 }
 
 .orga p {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: 0;
     /* margin-left: 36px; */
 }
 
 .orga p.title {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #A51330;
 }
 
@@ -760,6 +760,14 @@ a.btn-primary:hover {
     font-size: 0.8em;
 }
 
+.col-sm-4.orga p {
+    width: 75%;
+}
+
+.col-sm-6.orga p {
+    width: 100%;
+}
+
 /*** MEDIA STATEMENTS***/
 @media (max-width: 1440px) {
     .parallax-img {
@@ -900,6 +908,16 @@ a.btn-primary:hover {
     .col-sm-2.orga {
         text-align: center;
         font-size: 2em;
+    }
+
+    .col-sm-6.orga {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+
+    .col-sm-6.orga p {
+        margin-left: 0;
     }
 
     .col-sm-4.orga {
