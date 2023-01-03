@@ -910,6 +910,12 @@ a.btn-primary:hover {
         font-size: 2em;
     }
 
+    .col-sm-12.orga {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+
     .col-sm-6.orga {
         padding-top: 2em;
         padding-bottom: 2em;
