@@ -6,7 +6,7 @@
    height="82"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="ETVIS_LOGO.svg"
    inkscape:export-filename="E:\organization\ETVIS 2022\ETVIS_LOGO.png"
    inkscape:export-xdpi="1499.7074"
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="1.5625"
-     inkscape:cy="44.732143"
+     inkscape:zoom="5.6"
+     inkscape:cx="76.160714"
+     inkscape:cy="32.589286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,10 +37,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="3372"
-     inkscape:window-height="1372"
-     inkscape:window-x="68"
-     inkscape:window-y="31"
+     inkscape:window-width="3840"
+     inkscape:window-height="2093"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:pagecheckerboard="0" />
   <metadata
@@ -60,32 +60,35 @@
      id="layer1"
      transform="translate(-139,-202.79076)">
     <rect
-       y="200.52748"
-       x="136.44159"
-       height="86.466476"
-       width="86.086555"
+       y="193.58101"
+       x="129.33763"
+       height="100.35941"
+       width="100.29446"
        id="rect3921"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.549787;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
-       inkscape:export-xdpi="1000"
-       inkscape:export-ydpi="1000" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.639323;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\kochme\Projects\etvis.github.io\etvis_profile.png"
+       inkscape:export-xdpi="490.07999"
+       inkscape:export-ydpi="490.07999" />
     <text
-       inkscape:export-ydpi="1000"
-       inkscape:export-xdpi="1000"
-       inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
+       inkscape:export-ydpi="644.88"
+       inkscape:export-xdpi="644.88"
+       inkscape:export-filename="C:\Users\kochme\Projects\etvis.github.io\etvis_logo_with_text.png"
        transform="scale(1.1589094,0.86288023)"
        id="text3925"
-       y="323.44217"
-       x="119.91988"
+       y="324.26996"
+       x="129.41153"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#082640;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:21.8958px;line-height:1.25;fill:#082640;fill-opacity:1;stroke:none"
-         y="323.44217"
-         x="119.91988"
+         y="324.26996"
+         x="129.41153"
          id="tspan3927"
          sodipodi:role="line">ETVIS</tspan></text>
     <g
-       id="g37">
+       id="g37"
+       inkscape:export-filename="C:\Users\kochme\Projects\etvis.github.io\etvis_logo_without_text.png"
+       inkscape:export-xdpi="644.88"
+       inkscape:export-ydpi="644.88">
       <path
          inkscape:export-ydpi="1000"
          inkscape:export-xdpi="1000"
@@ -94,58 +97,46 @@
          d="m 180.92187,210.42787 c -11.91923,0.0704 -24.82827,8.15397 -39.03124,26.875 29.89213,36.67792 54.3462,28.93712 76.21874,0 -11.44897,-16.73932 -23.67905,-26.9548 -37.1875,-26.875 z m -0.125,4.21875 c 11.91263,0 21.5625,9.64987 21.5625,21.5625 0,11.91263 -9.64987,21.59375 -21.5625,21.59375 -11.91263,0 -21.56249,-9.68112 -21.56249,-21.59375 0,-11.91263 9.64986,-21.5625 21.56249,-21.5625 z"
          id="path3923"
          inkscape:connector-curvature="0" />
-      <path
+      <circle
          inkscape:export-ydpi="1000"
          inkscape:export-xdpi="1000"
          inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
-         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path3929"
          transform="matrix(0.8130043,0,0,0.85713433,-298.00531,79.524983)"
-         d="m 605.40945,168.00328 c 0,2.82323 -2.28868,5.1119 -5.1119,5.1119 -2.82323,0 -5.1119,-2.28867 -5.1119,-5.1119 0,-2.82322 2.28867,-5.1119 5.1119,-5.1119 2.82322,0 5.1119,2.28868 5.1119,5.1119 z"
-         sodipodi:type="arc"
-         sodipodi:ry="5.1119013"
-         sodipodi:rx="5.1119013"
-         sodipodi:cy="168.00328"
-         sodipodi:cx="600.29755" />
-      <path
+         cx="600.29755"
+         cy="168.00328"
+         r="5.1119013" />
+      <circle
          inkscape:export-ydpi="1000"
          inkscape:export-xdpi="1000"
          inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
          transform="matrix(0.51348049,0,0,0.54135231,-142.07527,138.84515)"
          id="path3931"
-         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 605.40945,168.00328 c 0,2.82323 -2.28868,5.1119 -5.1119,5.1119 -2.82323,0 -5.1119,-2.28867 -5.1119,-5.1119 0,-2.82322 2.28867,-5.1119 5.1119,-5.1119 2.82322,0 5.1119,2.28868 5.1119,5.1119 z"
-         sodipodi:type="arc"
-         sodipodi:ry="5.1119013"
-         sodipodi:rx="5.1119013"
-         sodipodi:cy="168.00328"
-         sodipodi:cx="600.29755" />
-      <path
+         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="600.29755"
+         cy="168.00328"
+         r="5.1119013" />
+      <circle
          inkscape:export-ydpi="1000"
          inkscape:export-xdpi="1000"
          inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
-         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path3933"
          transform="matrix(1.5270698,0,0,1.6099595,-735.94388,-32.993397)"
-         d="m 605.40945,168.00328 c 0,2.82323 -2.28868,5.1119 -5.1119,5.1119 -2.82323,0 -5.1119,-2.28867 -5.1119,-5.1119 0,-2.82322 2.28867,-5.1119 5.1119,-5.1119 2.82322,0 5.1119,2.28868 5.1119,5.1119 z"
-         sodipodi:type="arc"
-         sodipodi:ry="5.1119013"
-         sodipodi:rx="5.1119013"
-         sodipodi:cy="168.00328"
-         sodipodi:cx="600.29755" />
-      <path
+         cx="600.29755"
+         cy="168.00328"
+         r="5.1119013" />
+      <circle
          inkscape:export-ydpi="1000"
          inkscape:export-xdpi="1000"
          inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
          transform="matrix(0.70772158,0,0,0.74613685,-257.03877,119.88527)"
          id="path3935"
-         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 605.40945,168.00328 c 0,2.82323 -2.28868,5.1119 -5.1119,5.1119 -2.82323,0 -5.1119,-2.28867 -5.1119,-5.1119 0,-2.82322 2.28867,-5.1119 5.1119,-5.1119 2.82322,0 5.1119,2.28868 5.1119,5.1119 z"
-         sodipodi:type="arc"
-         sodipodi:ry="5.1119013"
-         sodipodi:rx="5.1119013"
-         sodipodi:cy="168.00328"
-         sodipodi:cx="600.29755" />
+         style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="600.29755"
+         cy="168.00328"
+         r="5.1119013" />
       <path
          style="fill:none;stroke:#082640;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 165.81735,230.01255 11.33462,4.9024"
@@ -164,19 +155,16 @@
          inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
          inkscape:export-xdpi="1000"
          inkscape:export-ydpi="1000" />
-      <path
+      <circle
          inkscape:export-ydpi="1000"
          inkscape:export-xdpi="1000"
          inkscape:export-filename="E:\organization\ETVIS 2022\etvis_logo_color_palette.png"
          transform="matrix(0.42411732,0,0,0.44713849,-77.193087,159.98046)"
          id="path3941"
          style="fill:#ffffff;fill-opacity:1;stroke:none"
-         d="m 605.40945,168.00328 c 0,2.82323 -2.28868,5.1119 -5.1119,5.1119 -2.82323,0 -5.1119,-2.28867 -5.1119,-5.1119 0,-2.82322 2.28867,-5.1119 5.1119,-5.1119 2.82322,0 5.1119,2.28868 5.1119,5.1119 z"
-         sodipodi:type="arc"
-         sodipodi:ry="5.1119013"
-         sodipodi:rx="5.1119013"
-         sodipodi:cy="168.00328"
-         sodipodi:cx="600.29755" />
+         cx="600.29755"
+         cy="168.00328"
+         r="5.1119013" />
       <ellipse
          style="fill:#082640;fill-opacity:1;stroke:none;stroke-width:0.331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path3943"
