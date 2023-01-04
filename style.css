@@ -292,6 +292,15 @@ a:hover {
     /*4em 6em*/
 }
 
+footer {
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background: #f3f3f3;
+    border-color: #e3e3e3;
+    font-size: 0.9em;
+}
+
 .navbar {
     width: 100%;
     background: #f3f3f3;
@@ -578,6 +587,10 @@ a.btn-primary:hover {
     text-align: left;
 }
 
+.orga-2 {
+    margin-bottom: 3em;
+}
+
 .orga p {
     font-size: 1em;
     margin-bottom: 0;
@@ -599,11 +612,12 @@ a.btn-primary:hover {
     text-decoration: none;
 }
 
+/*
 .orga-2 {
     text-align: center;
-    /**font-size:16px;**/
     font-size: 0.8em;
 }
+*/
 
 .img-mail {
     content: url("/2020/img/email_blue.jpg");
@@ -904,6 +918,10 @@ a.btn-primary:hover {
         width: 40px;
     }
 
+    .orga-2 {
+        margin-bottom: 0em;
+    }
+
     /* columns organizers */
     .col-sm-2.orga {
         text-align: center;
@@ -917,6 +935,12 @@ a.btn-primary:hover {
     }
 
     .col-sm-6.orga {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+
+    .col-sm-5.orga {
         padding-top: 2em;
         padding-bottom: 2em;
         text-align: center;
