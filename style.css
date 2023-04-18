@@ -145,6 +145,7 @@ a:hover {
 
 /* -- DATES TABLE -- */
 .bg-3 {
+    max-width: 1000px;
     background-color: #FFE3BA;
     color: #592519;
     box-sizing: content-box;
@@ -170,9 +171,9 @@ a:hover {
 }
 
 .tbl-1 {
+    width: 90%;
     border: none;
     box-sizing: content-box;
-    max-width: 900px;
     padding: 0.75em;
     text-align: left;
     vertical-align: middle;
