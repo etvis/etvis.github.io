@@ -68,6 +68,21 @@ h3 {
     margin-top: 10px;
 }
 
+h4 {
+    color: #325A73;
+    font-size: calc(0.8em + 0.4vw);
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 1.25;
+}
+
+.paper-body {
+    font-size: 0.8em;
+    line-height: 1.5;
+    width: 75%;
+    margin-top: 20px;
+}
+
 .gradient-h2 {
     background-image: linear-gradient(to right, #9aaced 0%, #592519 99%);
     -webkit-background-clip: text;
@@ -535,7 +550,7 @@ a.btn-primary:hover {
     border-width: 1px;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    width: 15%;
+    width: 50%;
 }
 
 /*** ORGANIZERS ***/
