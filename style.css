@@ -22,7 +22,7 @@
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: calc(1.25rem + 0.4vw);
+    font-size: min(calc(1.25rem + 0.4vw), 22px);
     font-weight: 300;
     line-height: 2em;
     text-align: center;
@@ -87,26 +87,22 @@ h4 {
 
     display: block;
 
-    -webkit-filter: blur(7px) opacity(0.7);
-    -moz-filter: blur(7px) opacity(0.7);
-    -o-filter: blur(7px) opacity(0.7);
-    -ms-filter: blur(7px) opacity(0.7);
-    filter: blur(7px) opacity(0.7);
+    -webkit-filter: blur(7px) opacity(0.5);
+    -moz-filter: blur(7px) opacity(0.5);
+    -o-filter: blur(7px) opacity(0.5);
+    -ms-filter: blur(7px) opacity(0.5);
+    filter: blur(7px) opacity(0.5);
 
     background-image: url("glasgow_background.jpg"); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position-y: center; 
-    width: 100vw; 
-    height: 20%; 
-    min-height: 450px; 
+    height: calc(375px + 3vw);
 }
 
 .teaser {
   z-index: 0;
-    width: 100vw; 
-    height: 20%; 
-    min-height: 450px; 
+    height: calc(375px + 3vw);
 }
 
 .paper-body {
@@ -304,8 +300,9 @@ a:hover {
 
 .profile-pic {
     border-radius: 50%;
-    width: 6vw;
+    width: 5vw;
     min-width: 100px;
+    max-width: 200px;
 
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -327,7 +324,7 @@ footer {
     background: #f3f3f3;
     border-color: #e3e3e3;
     color: #888;
-    font-size: calc(0.9rem + 0.4vw);
+    font-size: min(calc(0.9rem + 0.4vw), 20px);
 }
 
 .navbar {
@@ -356,7 +353,7 @@ footer {
 
 .navbar-nav a {
     color: #497AC4;
-    font-size: calc(1.5rem + 0.4vw);
+    font-size: min(calc(1.5rem + 0.4vw), 22px);
     font-weight: normal;
     letter-spacing: 1px;
     text-decoration: none;
@@ -572,7 +569,6 @@ a.btn-primary:hover {
 /*** ORGANIZERS ***/
 .orga {
     text-align: left;
-    font-size: calc(1.25rem + 0.4vw);
 }
 
 .orga-2 {
