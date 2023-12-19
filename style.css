@@ -93,7 +93,7 @@ h4 {
     -ms-filter: blur(7px) opacity(0.5);
     filter: blur(7px) opacity(0.5);
 
-    background-image: url("glasgow_background.jpg"); 
+    background-image: url("img/glasgow.jpg"); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position-y: center; 
