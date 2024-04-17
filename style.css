@@ -19,6 +19,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
 
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ffe3ba, #d5bc97, #ffe3ba)
+}
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
@@ -50,14 +56,11 @@ h1 {
     padding-bottom: 0.5em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
-
 }
 
 h2 {
     color: #082640;
     font-size: calc(2.0rem + 0.4vw);
-    font-family: 'Noto Sans Display', sans-serif;;
     font-weight: 300;
     margin-top: 10px;
     text-transform: uppercase;
@@ -76,6 +79,18 @@ h4 {
     font-weight: 300;
     margin-top: 10px;
     line-height: 1.25;
+}
+
+.keynote h2 {
+    font-size: min(calc(1.25rem + 0.4vw), 22px);
+    color: #A08760;
+    margin-bottom: 30px;
+}
+
+.keynote  {
+    font-size: min(calc(1.0rem + 0.4vw), 22px);
+    margin-bottom: 1em;
+
 }
 
 .teaser:before {
