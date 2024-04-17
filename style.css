@@ -84,7 +84,7 @@ h4 {
 .keynote h2 {
     font-size: min(calc(1.25rem + 0.4vw), 22px);
     color: #A08760;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .keynote  {
