@@ -1,0 +1,715 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <title>ETVIS - 9th Workshop on Eye Tracking and Visualization</title> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+   </head> 
+
+   <body> 
+   <!-- Navigation --> 
+   <nav class="navbar navbar-expand-md navbar-default navbar-fixed-top"> 
+      <div class="container-fluid"> 
+         <div class="navbar-header"> 
+            <button type="button" class="navbar-toggle navbar-toggle-right ml-auto float-xs-right" data-toggle="collapse" data-target="#navbarResponsive-1" aria-expanded="false" aria-controls="navbarResponsive-1"> 
+               <span class="navbar-togler-icon icon-bar"></span> 
+               <span class="navbar-togler-icon icon-bar"></span> 
+               <span class="navbar-togler-icon icon-bar"></span> 
+            </button> 
+            <a class="navbar-brand" style="padding-top: 5px" href="#"> 
+               <img src="img/etvis-logo-wo-text.png" width="64" alt="ETVIS logo in the navigation bar." style="padding-top: 0"> 
+            </a> 
+         </div> 
+         <div class="collapse navbar-collapse topnav" id="navbarResponsive-1" style="max-height: 480px">
+            <ul class="nav navbar-nav ml-auto"> 
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-program">Program</a> 
+               </li> 
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-topics">Topics</a> 
+               </li> 
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-submission">Submit</a> 
+               </li> 
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-dates">Dates</a> 
+               </li> 
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-organizers">Organization</a> 
+               </li> 
+               <!--
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-accepted" id="navAccPapers">Accepted Papers</a> 
+               </li> 
+               -->
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-contact" id="navNews">Contact</a> 
+               </li> 
+               <li class="nav-item"> 
+                  <a class="nav-link" href="#section-sponsors" id="navNews">Sponsors</a> 
+               </li> 
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Past ETVIS <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a href="https://www.visual-computing.org/2015/11/17/etvis2015/" target="_blank">1st ETVIS 2015 ⧉</a>
+                     </li>
+                     <li>
+                        <a href="http://www.profitippliga.de/etvis2016.php" target="_blank">2nd ETVIS 2016 ⧉</a>
+                     </li>
+                     <li>
+                        <a href="https://etvis.visus.uni-stuttgart.de/etvis2018/etvis2018.html" target="_blank">3rd ETVIS 2018 ⧉</a>
+                     </li>
+                     <li>
+                        <a href="https://etra.acm.org/2019/etvis.html" target="_blank">4th ETVIS 2019 ⧉</a>
+                     </li>
+                     <li>
+                        <a href="" target="_blank">5th ETVIS 2020</a>
+                     </li>
+                     <li>
+                        <a href="https://etra.acm.org/2022/workshops/ETVIS2022/ETVIS2021_Webpage.html" target="_blank">6th ETVIS 2022</a>
+                     </li>
+                     <li>
+                        <a href="https://www.etvis-workshop.org/etvis-2023" target="_blank">7th ETVIS 2023</a>
+                     </li>
+                     <li>
+                        <a href="https://www.etvis-workshop.org/etvis-2024" target="_blank">8th ETVIS 2024</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul> 
+         </div> 
+      </div> 
+   </nav>
+<!-- Navigation --> 
+
+   <!-- TEASER --> 
+   <div class="teaser">
+         <img src="img/etvis-logo.png" height="175" alt="ETVIS logo on the header" style="margin-top: 8em; margin-bottom: 0.5em;">
+         <!-- <h2 class="gradient-h2">Eye Tracking and Visualization</h2> --> 
+         <div style="padding-left: 1em; padding-right: 1em;">
+            <h2><b>9<sup>th</sup> Workshop on Eye Tracking and Visualization</b></h2> 
+         </div>
+   </div>
+   <!-- TEASER --> 
+
+   <!-- ROOT -->
+   <div class="container-fluid bg-2" style="margin-top: 1em; padding-top: 0;"> 
+      <!-- HEADER --> 
+      <div class="container-fluid bg-2"> 
+         <div style="margin-top: 2em; margin-bottom: 3em;"> 
+            <!--
+            <div class="alert alert-info" style="padding: 15px 5px 15px 5px">
+               <button type="button" class="close" data-dismiss="alert">&times;</button>
+               Submission deadline has been extended to <b><u>March 01</u></b><br> The updated notification date is <b><u>March 26</u></b>
+            </div>
+            -->
+            <div class="alert alert-info" style="padding: 15px 5px 15px 5px">
+               <button type="button" class="close" data-dismiss="alert">&times;</button>
+               The <a href="#section-program">ETVIS 2024 workshop program</a> is now online!
+            </div>
+            <div class="alert alert-info" style="padding: 15px 5px 15px 5px">
+               <button type="button" class="close" data-dismiss="alert">&times;</button>
+               ETVIS 2024 is a hybrid event and will be co-located with <a rel="noreferrer noopener" href="https://etra.acm.org/2024/index.html" target="_blank">ETRA 2024</a> in Glasgow, UK. <br>
+               It will be held <b>June 6th, 2024 from 11:00 to 18:30 <a rel="noreferrer noopener" target="_blank" href="https://www.timeanddate.com/time/zones/bst">(BST / British Summer Time)</a></b>
+            </div>
+            <div class="alert alert-info" style="width: 100%; margin: auto; min-width: 150px;">
+               <button type="button" class="close" data-dismiss="alert">&times;</button>
+               Follow <a rel="noreferrer noopener" href="https://twitter.com/vis_etvis" target="_blank">@vis_etvis</a> on Twitter to stay updated
+            </div>
+         </div>
+         <div class="text"> 
+            Broadly, this workshop considers the intersection of eye tracking research with visualization, whether the contributions relate to eye tracking studies of visualizations, or vice versa, visualization techniques for eye tracking.  Technological advances in computer vision algorithms and sensor hardware have greatly reduced the implementational and financial costs of eye tracking.  Thus, it is unsurprising to witness a significant increase in its use as a research tool in fields beyond the traditional domains of biological vision, psychology, and neuroscience, in particular, in visualization and human-computer interaction research.  One of the key challenges lies in the analysis, interaction, and visualization of complex spatio-temporal datasets of gaze behavior, which is further complicated by complementary datasets such as semantic labels, user interactions and/or accompanying physiological sensor recordings. Ultimately, the research objective is to allow eye tracking data to be effectively interpreted in terms of the observer’s decision-making and cognitive processes.  To achieve this, it is necessary to draw upon our current understanding of gaze-behavior across various and related fields, from vision and cognition to visualization. All together eye tracking is an important field to be understood, be it in the sense of data analysis and visualization, interaction, or user-based evaluation of visualization.  
+         </div> 
+      </div> 
+      <!-- HEADER --> 
+
+      <!-- ACCEPTED PAPER
+      <section id="section-accepted" class="bg-2 container-fluid" style="margin-top: 0em"> 
+         <h3>ACCEPTED PAPERS</h3> 
+         <hr class="sec-divider">
+         <div class="col-sm-12"> 
+            <div style="text-align: left;"> 
+               <h4>Representing (Dis)Similarities Between Prediction and Fixation Maps Using Intersection-over-Union Features</h4> 
+               <div class="paper-body">
+                  <b>Authors:</b>
+                  Jaime Maldonado and Christoph Zetzsche <br>
+                  <div style="margin-top: 1em;">
+                     <b>URL:</b>
+                     <a href="https://dl.acm.org/doi/abs/10.1145/3588015.3589843" target="_blank">https://dl.acm.org/doi/abs/10.1145/3588015.3589843</a> 
+                  </div>
+               </div>
+            </div>
+            <hr class="paper-divider">
+            <div style="text-align: left;"> 
+               <h4>Gazealytics: A Unified and Flexible Visual Toolkit for Exploratory and Comparative Gaze Analysis</h4> 
+               <div class="paper-body">
+                  <b>Authors:</b>
+                  Kun-Ting Chen Arnaud Prouzeau, Joshua Langmead, Ryan T Whitelock-Jones, Lee Lawrence, Tim Dwyer, Christophe Hurter, Daniel Weiskopf, and Sarah Goodwin
+                  <br>
+                  <div style="margin-top: 1em;">
+                     <b>URL: </b>
+                     <a href="https://dl.acm.org/doi/abs/10.1145/3588015.3589844" target="_blank">https://dl.acm.org/doi/abs/10.1145/3588015.3589844</a> 
+                  </div>
+               </div>
+            </div>
+            <hr class="paper-divider">
+            <div style="text-align: left;"> 
+               <h4>Privacy in Eye Tracking Research with Stable Diffusion</h4> 
+               <div class="paper-body">
+                  <b>Author:</b>
+                  Kuno Kurzhals
+                  <br>
+                  <div style="margin-top: 1em;">
+                     <b>URL: </b>
+                     <a href="https://dl.acm.org/doi/10.1145/3588015.3589842" target="_blank">https://dl.acm.org/doi/10.1145/3588015.3589842</a> 
+                  </div>
+               </div>
+            </div>
+            <hr class="paper-divider">
+            <div style="text-align: left;"> 
+               <h4>Gaze is more than just a point: Rethinking visual attention analysis using peripheral vision-based gaze mapping</strong></h4> 
+               <div class="paper-body">
+                  <div style="padding: 0.5em 0 1em 0; text-align: left;">&#x2B50; Best Paper &#x2B50;</div>
+                  <b>Authors:</b>
+                  Felix Sihan Wang, Quentin Lohmeyer, Andrew Duchowski, and Mirko Meboldt
+                  <br>
+                  <div style="margin-top: 1em;">
+                     <b>URL: </b>
+                     <a href="https://dl.acm.org/doi/10.1145/3588015.3589840" target="_blank">https://dl.acm.org/doi/10.1145/3588015.3589840</a> 
+                  </div>
+               </div>
+            </div>
+            <hr class="paper-divider">
+            <div style="text-align: left;"> 
+               <h4>Reading Strategies for Graph Visualizations that Wrap Around in Torus Topology</h4> 
+               <div class="paper-body">
+                  <b>Authors:</b>
+                  Kun-Ting Chen, Quynh Quang Ngo, Kuno Kurzhals, Kim Marriott, Tim Dwyer, Michael Sedlmair, and Daniel Weiskopf
+                  <br>
+                  <div style="margin-top: 1em;">
+                     <b>URL: </b>
+                     <a href="https://dl.acm.org/doi/10.1145/3588015.3589841" target="_blank">https://dl.acm.org/doi/10.1145/3588015.3589841</a> 
+                  </div>
+               </div>
+            </div>
+            <hr class="paper-divider">
+         </div>
+      </section> --> 
+      <!-- ACCEPTED PAPER --> 
+
+      <!-- WORKSHOP PROGRAM -->
+      <section id="section-program" class="bg-3 container-fluid" style="margin-top: 0em"> 
+      <h3>WORKSHOP PROGRAM</h3> 
+      <span style="color:#A08760;">June 6th, 2024 from 11:00 to 18:30 <a rel="noreferrer noopener" target="_blank" href="https://www.timeanddate.com/time/zones/bst">(BST / British Summer Time).</a> <br> Location: Kibble 2 (Glasgow Grosvenor Hotel) / Online (Zoom)</h4>
+         <table class="table tbl-1"> 
+            <thead> 
+               <tr> 
+                  <td class="col-sm-3 tbl-right border-hd td-h">
+                     <h3></h3>
+                  </td> 
+                  <td class="col-sm-3 tbl-right border-hd td-h">
+                     <h3></h3>
+                  </td> 
+               </tr> 
+            </thead> 
+            <tbody> 
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">11:00 - 11:15</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Opening</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">11:15 - 11:30</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Past ETVIS Workshops</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">11:30 - 11:55</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Popular Eye Tracking Data Visualizations (Kuno Kurzhals)</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">12:00 - 13:00</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">
+                     <div class="row">
+                        <div class="col-xs-6 col-sm-4" style="display: flex; justify-content: center; padding-left: 5px; padding-right: 5px;">
+                           <img style="border-radius: 0%; width: 90%; max-width: 30vw;" src="img/hg.jpg" alt="Profile picture of Hans Gellersen"> 
+                        </div>
+                        <div class="col-xs-6 col-sm-8">
+                           <span style="white-space: nowrap">
+                              Keynote
+                           </span>
+                           <span style="white-space: nowrap">
+                              Speaker:
+                           </span>
+                           <a style="white-space: nowrap; display: inline-block;" href="https://www.lancaster.ac.uk/scc/about-us/people/hans-gellersen" target="_blank">Hans Gellersen</a> 
+                           <div style="font-size: calc(0.75rem + 0.4vw); color: #CCAD7C;">Professor of Interactive Systems at Lancaster University and Aarhus University</div>
+                        </div>
+                     </div>
+                     <hr class="style-one">
+                     <div class="row">
+                        <div class="col-xs-12 keynote">
+                           <h2>Gaze and Eye Movement in Human-Computer Interaction</h2>
+                           <div>
+                              <b>Abstract:</b> Where we look not only reflects our information needs, but also guides our movements and actions in the world. As gaze is so central to our interactions, it has been studied for human-computer interaction (HCI) for as long as we have had modern computer interfaces. However, in decades of research, the approach has been to isolate eye movement as input, and to treat it as separate from other movements of the body that we use for interaction with computers. In this talk I will highlight how closely the movement of our eyes is coupled with other movement, of objects in the visual field, and the movement of our hands, head and body, and discuss examples of novel interfaces that leverage eye movement in concert with other motion and modalities.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-xs-12">
+                           <div class="keynote">
+                              <b>About the speaker: </b>
+                              Hans Gellersen is Professor of Interactive Systems at Lancaster University and Aarhus University. 
+                              Hans' research interest is in sensors and devices for ubiquitous computing and human-computer interaction. 
+                              He has worked on systems that blend physical and digital interaction, methods that infer context and human activity, and techniques that facilitate spontaneous interaction across devices. 
+                              In his recent work, he is focussing on multimodal interaction techniques that leverage gaze and eye movement, supported by a prestigious ERC Advanced Grant awarded by the European Research Council
+                              (<a href="http://gemini-erc.eu/" target="_blank">gemini-erc.eu/</a>)
+                           </div>
+                        </div>
+                     </div>
+
+                  </td> 
+                  <!--
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">
+                     <div class="row">
+                     <div class="col-xs-4 col-sm-2">
+                         <div class="row">
+                           <img style="width: 100%; " src="Raschke-01.jpg" class="img-circle" alt="Cinque Terre"> 
+                         </div>
+                         <div class="row" style="text-align: center; font-size: 0.75em; margin-top: 5px;">
+                           <span style="display: inline-block;">Dr. Michael Raschke</span> - Blickshift
+                        </div>
+                     </div>
+                     <div class="col-xs-8 col-sm-10">
+                        Visualization & Analytics Tool Demos (Dr. Michael Raschke, Blickshift)
+                        <div style="font-size: 0.8em; margin-top: 1em;"> 
+                        In recent years, the way we analyze eye tracking data has changed and many new methods have been proposed. 
+                        Besides statistical methods, visualizations offer additional possibilities for the analysis. 
+                        Combined with automatic components such as pattern search or analysis techniques based on machine learning, visualizations are becoming an integral part of modern eye tracking analysis. 
+                        This presentation will give an overview of how visualizations and visual analytics are used as powerful tools in many different areas of modern eye tracking analysis.
+                        </div>
+                        <div style="font-size: 0.8em; margin-top: 0.5em;"> 
+                        <b>Contact:</b>
+                        <a href="https://www.blickshift.de">https://www.blickshift.de</a> and
+                        <a href="https://twitter.com/Blickshift">@blickshift</a>
+                        </div>
+                     </div>
+                     </div>
+                  </td> 
+                  -->
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">13:00 - 14:00</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Lunch Break</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">14:00 - 15:30</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl"><b>Session 1 - Eye Tracking Studies (Chair: Minoru Nakayama)</b> <br> (each: 20 min. talk + 10 min. questions)
+                     <ul>
+                        <li>
+                        Investigating the Gap: Gaze and Movement Analysis in Immersive Environments 
+                        <span style="color: #CCAD7C">(Nelusa Pathmanathan, Kuno Kurzhals)</span> <a href="https://dl.acm.org/doi/10.1145/3649902.3653522" target="_blank">[Paper]</a>
+                        </li>
+                        <li>
+                        NMF-Based Analysis of Mobile Eye-Tracking Data 
+                        <span style="color: #CCAD7C;">(Daniel Klötzl, Tim Krake, Frank Heyen, Michael Becher, Maurice Koch, Daniel Weiskopf, Kuno Kurzhals)</span> <a href="https://dl.acm.org/doi/10.1145/3649902.3653518" target="_blank">[Paper]</a>
+                        </li>
+                        <li>
+                        Which Experimental Design is Better Suited for VQA Tasks? Eye Tracking Study on Cognitive Load, Performance, and Gaze Allocations
+                        <span style="color: #CCAD7C;">(Sita Vriend, Sandeep Vidyapu, Amer Rama, Kun-Ting Chen, Daniel Weiskopf)</span> <a href="https://dl.acm.org/doi/10.1145/3649902.3653519" target="_blank">[Paper]</a>
+                        </li>
+                     </ul>
+                  </td> 
+               </tr> 
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">15:30 - 16:00</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Discussions</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">16:00 - 16:30</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Coffee Break</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">16:30 - 18:00</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl"><b>Session 2 - Maps and Text (Chair: Mihai Bâce)</b> <br> (each: 20 min. talk + 10 min. questions)
+                     <ul>
+                        <li>
+                           Analysis of eye movement scan-paths and their image features while searching for routes on metro maps 
+                           <span style="color: #CCAD7C;">(Taiki Kodomaru, Minoru Nakayama)</span> <a href="https://dl.acm.org/doi/10.1145/3649902.3653523" target="_blank">[Paper]</a>
+                        </li>
+                        <li>
+                           Exploring Geological Map Usability Through Sequence Chart Visualization
+                           <span style="color: #CCAD7C;">(Stanislav Popelka, Jiri Kominek, Michaela Vojtechovska)</span> <a href="https://dl.acm.org/doi/abs/10.1145/3649902.3653520" target="_blank">[Paper]</a>
+                        </li>
+                        <li>
+                        Eye Tracking on Text Reading with Visual Enhancements
+                        <span style="color: #CCAD7C;"> (Franziska Huth, Maurice Koch, Miriam Awad-Mohammed, Daniel Weiskopf, Kuno Kurzhals)</span> <a href="https://dl.acm.org/doi/10.1145/3649902.3653521" target="_blank">[Paper]</a>
+                        </li>
+                     </ul>
+                  </td> 
+               </tr> 
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">18:00 - 18:20</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Discussions</td> 
+               </tr>
+               <tr> 
+                  <td class="col-xs-4 col-md-2 tbl-right border-cl">18:20 - 18:30</td> 
+                  <td class="col-xs-8 col-md-10 tbl-right border-cl">Closing and ETVIS 2025</td> 
+               </tr>
+            </tbody> 
+         </table> 
+      </section>  
+      <!-- WORKSHOP PROGRAM -->
+
+      <!-- TOPIC AREAS --> 
+      <section id="section-topics" class="container-fluid bg-2" style="margin-top: 0em"> 
+         <h3>Topics</h3> 
+         <hr class="sec-divider">
+         <div class="row" style="margin-top: 0em"> 
+            <div class="col-sm-12 text" style="margin-bottom: 1em;">
+               Manuscripts are solicited on the following topics with an emphasis on the relationship between eye tracking and visualization, including but not limited to the following: 
+            </div>
+            <div class="col-sm-12 text"> 
+               <ul class="list-unstyled topic-areas"> 
+                  <li> 
+                     <ul> 
+                        <li><span>Visualization techniques for eye movement data (inc. spatio-temporal visualization, evolution of gaze patterns, visual analysis of individual behavior, 2D vs. 3D representations of eye movement data)</span>
+                        </li> 
+                        <li><span>Visual analytics of gaze behavior (inc. visual data mining, aggregation, clustering techniques, and metrics for eye movement data)</span>
+                        </li> 
+                        <li><span>Eye movement data provenance</span>
+                        </li> 
+                        <li><span>Standardized metrics for evaluating gaze interactions with visualization</span>
+                        </li> 
+                        <li><span>Cognitive models for gaze interactions with visualizations</span>
+                        </li> 
+                        <li><span>Novel methods for eye tracking in challenging visualization scenarios</span>
+                        </li> 
+                        <li><span>Uncertainty visualization of gaze data</span>
+                        </li> 
+                        <li><span>Interactive annotation of gaze and stimulus data</span>
+                        </li> 
+                        <li><span>Systems for the visual exploration of eye movement data</span>
+                        </li> 
+                        <li><span>Eye tracking studies that evaluate visualization or visual analytics</span>
+                        </li> 
+                        <li><span>Eye tracking in non-WIMP visualization environments, including mobile eye tracking, mobile devices, and large displays</span>
+                        </li> 
+                        <li><span>Visualization of eye tracking data in mixed and virtual reality (3df &amp; 6df, 360°)</span>
+                        </li> 
+                        <li><span>Visualization applications that rely on eye tracking as an input parameter</span>
+                        </li> 
+                     </ul> 
+                  </li>
+               </ul> 
+            </div> 
+         </div> 
+      </section> 
+      <!-- TOPIC AREAS --> 
+
+      <!-- SUBMISSION --> 
+      <section id="section-submission" class="container-fluid bg-2" style="margin-top: 0em"> 
+         <h3>Submission</h3> 
+         <hr class="sec-divider">
+         <div class="row" style="margin-top: 1em"> 
+            <div class="col-sm-12 text">
+               Authors are invited to submit original work complying with the <a href="https://etra.acm.org/2024/submissionprocess.html" target="_blank">ETRA SHORT PAPER format</a> (max. 8 pages, plus any number of additional pages for references, max. 150 words abstract).
+               Also ensure that the <a href="https://www.siggraph.org/learn/instructions-authors" target="_blank">Author Guidelines</a> for SIG sponsored events [sigconf]) are met prior to submission.
+               ETVIS uses the <a href="https://new.precisionconference.com/user/login?society=etra" target="_blank">Precision Conference System (PCS)</a> through ETRA 2024 to handle the submission and reviewing process.
+               All accepted papers will be published by ACM as part of the Workshop Proceedings of ETRA 2024.
+               <!--
+                  Authors are invited to submit original work complying with the ETRA SHORT PAPER format (up to 4 pages + references). Papers should be submitted electronically in PDF format to ETVIS through the ETRA submission system: <a href="https://new.precisionconference.com/user/login?society=etra" target="_blank">https://new.precisionconference.com/user/login?society=etra</a>.<br><br> Also ensure that the Author Guidelines (<a href="https://www.siggraph.org//learn/instructions-authors" target="_blank">https://www.siggraph.org//learn/instructions-authors</a> for SIG sponsored events [sigconf]) are met prior to submission.-->
+            </div> 
+         </div> 
+      </section> 
+      <!-- SUBMISSION --> 
+
+      <!-- DATES --> 
+      <section id="section-dates" class="bg-2 container-fluid" style="margin-top: 0em"> 
+         <h3>Important Dates</h3> 
+         <h4>
+            <a href="https://www.timeanddate.com/time/zones/aoe" target="_blank" style="text-decoration:underline">(Time Zone AoE/Anywhere on Earth)</a>
+         </h4>
+         <hr class="sec-divider">
+         <table class="table tbl-1"> 
+            <thead> 
+               <tr> 
+                  <td class="col-sm-6 tbl-right border-hd td-h">
+                     <h3></h3>
+                  </td> 
+                  <td class="col-sm-3 tbl-right border-hd td-h">
+                     <h3></h3>
+                  </td> 
+               </tr> 
+            </thead> 
+            <tbody> 
+               <tr> 
+                  <!--
+                  <td class="col-md-6 tbl-right border-cl">Final Submission Due</td> 
+                  <td class="col-md-3 tbl-right border-cl">February 22, 2023</td> 
+                  -->
+                  <td class="col-md-6 tbl-right border-cl"><span style="text-decoration: line-through;">Paper Submission Due (Deadline extended)</span> </td> 
+                  <td class="col-md-3 tbl-right border-cl"><span style="text-decoration: line-through;"><b>Feb 22, 2024 </b></td> 
+               </tr> 
+               <tr> 
+                  <td class="col-md-6 tbl-right border-cl"><span style="text-decoration: line-through;">Notification</span></td> 
+                  <td class="col-md-3 tbl-right border-cl"><span style="text-decoration: line-through;">Mar 14, 2024</span></td> 
+               </tr> 
+               <tr> 
+                  <td class="col-md-6 tbl-right border-cl"><span style="text-decoration: line-through;">Camera Ready</span></td> 
+                  <td class="col-md-3 tbl-right border-cl"><span style="text-decoration: line-through;">Apr 05, 2024</span></td> 
+               </tr> 
+               <tr> 
+                  <td class="col-md-6 tbl-right border-cl" style="text-decoration: none;"><span>Workshop</span></td> 
+                  <td class="col-md-3 tbl-right border-cl" style="text-decoration: none;"><span>June 06, 2024 <br> from 11:00 to 18:30 <a rel="noreferrer noopener" target="_blank" href="https://www.timeanddate.com/time/zones/bst">(BST)</a></span></td> 
+               </tr> 
+            </tbody> 
+         </table> 
+      </section> 
+      <!-- DATES -->
+
+      <!-- ORGANIZERS --> 
+      <section id="section-organizers" class="container-fluid bg-2" style="margin-top: 0em"> 
+         <div class="row" style="margin-top: 0em"> 
+            <div style="padding-bottom: 1.5em"> 
+               <h3>Organizer</h3> 
+               <hr>
+            </div> 
+            <div class="col-sm-6 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/mb.jpg" class="profile-pic" alt="Profile picture of Michael Burch"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://www.fhgr.ch/en/persons/person/burch/" target="_blank">Michael Burch</a></p> 
+               <p>University of Applied Sciences<br>Chur, Switzerland</p> 
+               </div>
+            </div> 
+            <div class="col-sm-6 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/kk.jpg" class="profile-pic" alt="Profile picture of Kuno Kurzhals"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://www.visus.uni-stuttgart.de/en/institute/team/Kurzhals/" target="_blank">Kuno Kurzhals</a> </p> 
+               <p>University of Stuttgart<br> Germany</p> 
+               </div> 
+            </div> 
+         </div> 
+
+      </section> 
+      <!-- ORGANIZERS -->
+
+      <!-- PAPER CHAIRS --> 
+      <section class="container-fluid bg-2" style="margin-top: 0em"> 
+         <div class="row" style="margin-top: 0em"> 
+            <div style="padding-bottom: 1.5em"> 
+               <h3>Paper Chairs</h3> 
+               <hr>
+            </div> 
+            <div class="col-sm-6 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/mn.jpg" class="profile-pic" alt="Profile picture of Minoru Nakayama"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="http://www.nk.ict.e.titech.ac.jp/~nakayama/index_e.html" target="_blank">Minoru Nakayama</a> </p> 
+               <p>Tokyo Institute of Technology<br>Japan</p> 
+               </div> 
+            </div> 
+            <div class="col-sm-6 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/cx.jpg" class="profile-pic" alt="Profile picture of Cindy Xiong Bearfield"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://cyxiong.com" target="_blank">Cindy Xiong Bearfield</a></p> 
+               <!--
+               <p>University of Massachusetts Amherst<br>United States</p> 
+               -->
+               <p>Georgia Institute of Technology<br>United States</p> 
+               </div>
+            </div> 
+         </div> 
+      </section> 
+      <!-- ORGANIZERS -->
+
+      <!-- Steering --> 
+      <section class="container-fluid bg-2" style="margin-top: 0em"> 
+         <div class="row" style="margin-top: 0em"> 
+            <div style="padding-bottom: 1.5em"> 
+               <h3>Steering Committee</h3> 
+               <hr>
+            </div> 
+            <div class="col-sm-6 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/mb.jpg" class="profile-pic" alt="Profile picture of Michael Burch"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://www.fhgr.ch/en/persons/person/burch/" target="_blank">Michael Burch</a></p> 
+               <p>University of Applied Sciences<br>Chur, Switzerland</p> 
+               </div>
+            </div> 
+            <div class="col-sm-6 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/dw.jpg" class="profile-pic" alt="Profile picture of Daniel Weiskopf"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://www.vis.uni-stuttgart.de/en/institute/team/Weiskopf/" target="_blank">Daniel Weiskopf</a></p> 
+               <p>University of Stuttgart<br> Germany</p> 
+               </div>
+            </div> 
+         </div> 
+         <div class="row" style="margin-top: 0em"> 
+            <div class="col-sm-12 orga" style="text-align: center; padding-bottom: 2em;"> 
+               <div class="row">
+                  <img src="img/lc.jpg" class="profile-pic" alt="Profile picture of Lewis Chuang"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://lewischuang.com/" target="_blank">Lewis Chuang</a></p> 
+               <!--
+               <p>University of Massachusetts Amherst<br>United States</p> 
+               -->
+               <p>Chemnitz University of Technology<br>Germany</p> 
+            </div>
+         </div>
+      </section> 
+
+
+      <!-- Media Chair --> 
+      <div class="container-fluid bg-2" style="margin-top: 0em"> 
+         <div class="row" style="margin-top: 0em"> 
+            <div style="padding-bottom: 1.5em"> 
+               <h3>Media Chair</h3> 
+               <hr>
+            </div> 
+            <div class="orga" style="text-align: center"> 
+               <div class="row">
+                  <img src="img/mk.jpg" class="profile-pic" alt="Profile picture of Maurice Koch"> 
+               </div>
+               <div class="row" style="margin-top: 20px;">
+               <p class="title"><a rel="noreferrer noopener" href="https://www.visus.uni-stuttgart.de/en/institute/team/Koch-00016/" target="_blank">Maurice Koch</a> </p> 
+               <p>University of Stuttgart<br> Germany</p> 
+               </div>
+            </div> 
+         </div> 
+      </div>  
+      <!-- Media Chair --> 
+
+      <!-- Publicity Chair
+      <div class="container-fluid bg-2" style="margin-top: 0em"> 
+         <div class="row" style="margin-top: 0em"> 
+            <div style="padding-bottom: 0em"> 
+               <h3>Publicity Chair</h3> 
+               <hr>
+            </div> 
+            <div class="orga" style="text-align: center"> 
+               <p class="title"><a rel="noreferrer noopener" href="https://www.visus.uni-stuttgart.de/en/institute/team/Chen-00026/" target="_blank">Kun-Ting Chen</a> </p> 
+               <p>University of Stuttgart,<br>Germany</p> 
+            </div> 
+         </div> 
+      </div> --> 
+      <!-- Publicity Chair --> 
+
+      <div class="container-fluid bg-2" style="margin-top: 0em"> 
+         <div class="row" style="margin-top: 0em"> 
+            <div style="padding-bottom: 0em"> 
+               <h3>IPC</h3> 
+               <hr class="sec-divider">
+            </div>
+            <div class="col-sm-12 orga-2"> 
+               <div class="col-sm-5 col-sm-offset-2 orga"> 
+                  <p class="title">Natalia Andrienko</p> 
+                  <p>Fraunhofer Institute IAIS<br>Germany</p> 
+               </div> 
+               <div class="col-sm-5 orga"> 
+                  <p class="title">Fabian Beck</p> 
+                  <p>University of Bamberg<br>Germany</p> 
+               </div> 
+            </div> 
+            <div class="col-sm-12 orga-2"> 
+               <div class="col-sm-5 col-sm-offset-2 orga"> 
+                  <p class="title">Michael Burch</p> 
+                  <p>University of Applied Sciences<br>Chur, Switzerland</p> 
+               </div>
+               <div class="col-sm-5 orga"> 
+                  <p class="title">Francisco Maria Calisto</p> 
+                  <p>University of Lisbon<br>Portugal</p> 
+               </div> 
+            </div> 
+            <div class="col-sm-12 orga-2"> 
+               <div class="col-sm-5 col-sm-offset-2 orga"> 
+                  <p class="title">Ruichen He</p> 
+                  <p>University of Minnesota<br>USA</p> 
+               </div>
+               <div class="col-sm-5 orga"> 
+                  <p class="title">Chao Jiang</p> 
+                  <p><br></p> 
+               </div> 
+            </div> 
+            <div class="col-sm-12 orga-2"> 
+               <div class="col-sm-5 col-sm-offset-2 orga"> 
+                  <p class="title">Peter Kiefer</p> 
+                  <p>ETH Zürich<br>Switzerland</p> 
+               </div> 
+               <div class="col-sm-5 orga"> 
+                  <p class="title">Maurice Koch</p> 
+                  <p>University of Stuttgart<br>Germany</p> 
+               </div>
+            </div>  
+            <div class="col-sm-12 orga-2"> 
+               <div class="col-sm-5 col-sm-offset-2 orga"> 
+                  <p class="title">Ayush Kumar</p> 
+                  <p>Stony Brook University<br>USA</p> 
+               </div> 
+               <div class="col-sm-5 orga"> 
+                  <p class="title">Kuno Kurzhals</p> 
+                  <p>University of Stuttgart<br>Germany</p> 
+               </div> 
+            </div>  
+            <div class="col-sm-12 orga-2"> 
+               <div class="col-sm-5 col-sm-offset-2 orga"> 
+                  <p class="title">Cem Sazara</p> 
+                  <p><br></p> 
+               </div>
+               <div class="col-sm-5 orga"> 
+                  <p class="title">Günter Wallner</p> 
+                  <p>Johannes Kepler University Linz<br>Austria</p> 
+               </div>
+            </div>  
+            <!--
+            <div class="col-sm-12" style="padding-bottom:0em"> 
+            </div>  
+            -->
+         </div> 
+      </div>
+      <!-- IPCS --> 
+
+      <!-- CONTACT US --> 
+      <section id="section-contact" class="container-fluid bg-2" style="margin-top: 0em; margin-bottom: 0em;"> 
+         <h3>CONTACT US</h3> 
+         <hr class="sec-divider">
+         <div class="row"> 
+            <div class="col-sm-12 text" style="text-align:center;">For any queries, feel free to contact us at <a href="mailto:etvis2024@gmail.com">etvis2024@gmail.com</a>.<br></div>
+         </div> 
+      </section> 
+      <!-- CONTACT US --> 
+
+      <!-- SPONSORS --> 
+      <section id="section-sponsors" class="container-fluid bg-2" style="margin-top: 0em; margin-bottom: 0em;"> 
+         <h3>SPONSORS</h3> 
+         <hr class="sec-divider">
+         <a rel="noreferrer noopener" href="https://www.sfbtrr161.de/" target="_blank">
+         <img src="img/sfbtrr161_logo.png" style="width: 50%; height: auto; max-width: 300px;" />
+         </a>
+      </section>
+      <!-- SPONSORS --> 
+
+   </div>
+   <!-- ROOT -->
+
+   <footer>
+      <div>
+      This website is hosted on <a href="https://github.com/etvis/etvis.github.io" target="_blank">GitHub</a>.
+      </div>
+   </footer>
+   </body>
+</html>
