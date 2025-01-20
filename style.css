@@ -18,6 +18,15 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@600&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=REM:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+.etvis-urls li + li {
+    margin: 20px 0;
+}
+
+.etvis-urls li {
+    word-break: break-word;
+}
 
 hr.style-one {
     border: 0;
@@ -93,7 +102,82 @@ h4 {
 
 }
 
-.teaser:before {
+.teaser-welcome h1 {
+    font-family: "REM", serif;
+    
+    color: #082640;
+    font-size: calc(4.5rem + 0.4vw);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.15em;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.teaser-welcome h2 {
+    color: #d3cca4;
+    font-size: calc(2.0rem + 0.4vw);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.teaser-tokyo h1 {
+    font-family: "REM", serif;
+    
+    color: #670d3eff;
+    font-size: calc(4.5rem + 0.4vw);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.15em;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.teaser-tokyo h2 {
+    color: #670d3ee0;
+    font-size: calc(2.0rem + 0.4vw);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.teaser-tokyo:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+
+    -webkit-filter: blur(2px) opacity(0.5);
+    -moz-filter: blur(2px) opacity(0.5);
+    -o-filter: blur(2px) opacity(0.5);
+    -ms-filter: blur(2px) opacity(0.5);
+    filter: blur(2px) opacity(0.5);
+
+    background-image: url("img/tokyo_01.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position-y: center; 
+    height: calc(400px + 3vw);
+}
+
+.teaser-tokyo {
+  z-index: 0;
+    height: calc(400px + 3vw);
+}
+
+.teaser-glasgow:before {
     content: "";
     position: absolute;
     left: 0;
@@ -115,7 +199,7 @@ h4 {
     height: calc(375px + 3vw);
 }
 
-.teaser {
+.teaser-glasgow {
   z-index: 0;
     height: calc(375px + 3vw);
 }
