@@ -165,7 +165,7 @@ h4 {
     -ms-filter: blur(2px) opacity(0.5);
     filter: blur(2px) opacity(0.5);
 
-    background-image: url("img/tokyo_01.jpg"); 
+    background-image: url("img/tokyo.jpg"); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position-y: center; 
