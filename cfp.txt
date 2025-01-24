@@ -1,0 +1,97 @@
+You are invited to submit relevant manuscripts for consideration in the
+* Ninth Workshop on Eye Tracking and Visualization (ETVIS 2025) *
+
+May 26 - May 29, 2025, Tokyo - Japan in conjunction with the Symposium on Eye Tracking Research and Applications (ETRA): https://etra.acm.org/2025/ 
+All accepted papers will be published by ACM as part of the Workshop Proceedings of ETRA 2025.
+
+The details are appended and also available at https://www.etvis-workshop.org/etvis-2025.
+Please feel free to contact us directly for any further enquiry.
+
+Best regards,
+
+Michael Burch (University of Applied Sciences, Chur, Switzerland)
+Kuno Kurzhals (University of Stuttgart, Germany)
+
+**************************************************************************
+            Ninth Workshop on Eye Tracking and Visualization (ETVIS 2025)                            
+            May 26 - May 29, 2025, Tokyo - Japan
+            in conjunction with ACM ETRA 2025                                                                           
+            https://etra.acm.org/2025/                                                                                            
+**************************************************************************
+            Contact: etvis.workshop@gmail.com                                                                                   
+**************************************************************************
+________________
+IMPORTANT DATES
+________________
+● Submission Due: TBD, 2025
+● Notification: TBD, 2025
+● Camera Ready: TBD, 2025
+
+All accepted papers will be published by ACM.
+
+______
+SCOPE
+______
+Broadly, this workshop considers the intersection of eye tracking research with visualization, whether the contributions relate to eye tracking studies 
+of visualizations, or vice versa, visualization techniques for eye tracking.
+Technological advances in computer vision algorithms and sensor hardware have greatly reduced the implementational and financial costs of eye tracking. 
+Thus, it is unsurprising to witness a significant increase in its use as a research tool in fields beyond the traditional domains of biological vision, 
+psychology, and neuroscience, in particular, in visualization and human-computer interaction research. 
+One of the key challenges lies in the analysis, interaction, and visualization of complex spatio-temporal datasets of gaze behavior, which is further 
+complicated by complementary datasets such as semantic labels, user interactions and/or accompanying physiological sensor recordings. 
+Ultimately, the research objective is to allow eye tracking data to be effectively interpreted in terms of the observer’s decision-making and cognitive processes. 
+To achieve this, it is necessary to draw upon our current understanding of gaze-behavior across various and related fields, from vision and cognition to visualization. 
+All together eye tracking is an important field to be understood, be it in the sense of data analysis and visualization, interaction, or user-based evaluation of visualization.
+
+_______
+TOPICS
+_______
+Manuscripts are solicited on the following topics with an emphasis on the relationship between eye tracking and visualization, including but not limited to the following:
+
+●       Visualization techniques for eye-movement data (inc. spatio-temporal visualization, evolution of gaze patterns, visual analysis of individual behavior, 2D vs. 3D representations of eye-movement data)
+●       Visual analytics of gaze behavior (inc. visual data mining, aggregation, clustering techniques, and metrics for eye-movement data)
+●       Eye-movement data provenance
+●       Standardized metrics for evaluating gaze interactions with visualization
+●       Cognitive models for gaze interactions with visualizations
+●       Novel methods for eye tracking in challenging visualization scenarios
+●       Uncertainty visualization of gaze data
+●       Interactive annotation of gaze and stimulus data
+●       Systems for the visual exploration of eye-movement data
+●       Eye tracking studies that evaluate visualization or visual analytics
+●       Eye tracking in non-WIMP visualization environments, including mobile eye tracking, mobile devices, and large displays
+●       Visualization of eye tracking data in mixed and virtual reality (3df & 6df, 360°)
+●       Visualization applications that rely on eye tracking as an input parameter
+
+____________
+SUBMISSIONS
+____________
+Authors are invited to submit original work complying with the ETRA SHORT PAPER format (up to 8 pages in single-column format, any number of references, max. 150 words abstract).
+Also, ensure that the Author Guidelines (https://www.siggraph.org//learn/instructions-authors for SIG sponsored events [sigconf]) are met prior to submission.
+
+_________
+ORGANIZERS
+_________
+● Michael Burch, University of Applied Sciences, Chur, Switzerland, michael.burch@fhgr.ch
+● Kuno Kurzhals, University of Stuttgart, Germany, Kuno.Kurzhals@visus.uni-stuttgart.de
+
+____________
+PAPER CHAIRS
+____________
+● Minoru Nakayama, Tokyo Institute of Technology, Japan, nakayama@ict.e.titech.ac.jp
+● Yao Wang, University of Stuttgart, Germany, yao.wang@vis.uni-stuttgart.de
+● Zofija Tupikovskaja-Omovie, Manchester Metropolitan University, United Kingdom, z.tupikovskaja-omovie@mmu.ac.uk
+
+__________________
+STEERING COMMITTEE
+__________________
+TBD
+
+___________
+SOCIAL MEDIA CHAIR
+___________
+Ioana Lupascu, Tufts University, United States, Ioana.Lupascu@tufts.edu
+
+___________
+WEBSITE CHAIR
+___________
+Maurice Koch, University of Stuttgart, Germany, Maurice.Koch@visus.uni-stuttgart.de
