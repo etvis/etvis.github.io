@@ -56,6 +56,21 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.speaker-heading {
+    color: #733267;
+    font-weight: 500;
+    font-size: calc(2.75rem + 0.4vw);
+    margin-bottom: 0em;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.speaker-subheading {
+    color: #bba7c9;
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
 h1 {
     color: #DDB61E;
