@@ -17,8 +17,15 @@
 /*#592519 palette-5*/
 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gantari:wght@600&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=REM:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+
+.icon {
+  font-family: 'Noto Emoji', 'Noto Sans Display', sans-serif;
+  font-weight: 500;
+}
 
 .etvis-urls li + li {
     margin: 20px 0;
