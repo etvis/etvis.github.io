@@ -25,6 +25,8 @@
 .icon {
   font-family: 'Noto Emoji', 'Noto Sans Display', sans-serif;
   font-weight: 500;
+  font-size: min(calc(1.25rem + 0.4vw), 22px);
+  display: inline-block;
 }
 
 .etvis-urls li + li {
