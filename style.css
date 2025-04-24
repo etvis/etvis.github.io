@@ -338,11 +338,10 @@ a:hover {
     text-align: left;
     vertical-align: middle;
     margin: auto;
-    margin-top: 1em;
 }
 
 .tbl-1 td {
-    height: 2em;
+    height: 0em;
     /*font-weight: normal;*/
 }
 
