@@ -235,6 +235,19 @@ h4 {
     padding-bottom: 2em;
 }
 
+/* Shadow layer on top of everything */
+.teaser-marrakesh::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 50px 3px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    pointer-events: none;
+}
+
 /* Star layer base styles */
 .star-layer {
     content: "";
