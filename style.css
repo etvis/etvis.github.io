@@ -166,6 +166,323 @@ h4 {
     margin-right: 0.5em;
 }
 
+/* */
+
+.teaser-marrakesh h1 {
+    font-family: "REM", serif;
+    
+    color: whitesmoke;
+    font-size: calc(4.0rem + 0.4vw);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.15em;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 5;
+}
+
+.teaser-marrakesh h2 {
+    font-family: "REM", serif;
+    color: whitesmoke;
+    font-size: calc(1.5rem + 0.4vw);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    position: relative;
+    z-index: 5;
+}
+
+.teaser-marrakesh .text {
+    font-family: "REM", serif;
+    color: beige;
+    font-size: min(calc(1.0rem + 0.4vw), 20px);
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    z-index: 5;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    background-color: rgba(23, 15, 45, 0.533);
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.teaser-marrakesh .text a {
+    color: beige;
+    text-decoration: underline;
+}
+
+.teaser-marrakesh .text a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+    transition: 0.5s color ease;
+}
+
+.teaser-marrakesh {
+    background: linear-gradient(90deg, rgba(28, 56, 97, 1) 0%, rgb(35, 92, 158) 50%, rgba(29, 58, 91, 1) 100%);
+    position: relative;
+    z-index: 0;
+    /*height: calc(350px + 2vw);*/
+    overflow: hidden;
+    padding-top: 6em;
+    padding-bottom: 2em;
+}
+
+/* Star layer base styles */
+.star-layer {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.star-layer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    animation: starBlink 4s ease-in-out infinite;
+}
+
+/* Star Group 1 - No delay, ~27 stars */
+.star-layer-1::before {
+    animation-delay: 0s;
+    box-shadow:
+        /* Large bright stars */
+        15vw 8vh 0 2px rgba(255, 255, 255, 1),
+        85vw 12vh 0 2px rgba(255, 255, 255, 0.95),
+        25vw 18vh 0 2.5px rgba(255, 255, 255, 0.9),
+        70vw 20vh 0 2px rgba(255, 255, 255, 1),
+        40vw 14vh 0 2.5px rgba(255, 255, 255, 0.85),
+        90vw 16vh 0 2px rgba(255, 255, 255, 0.9),
+        18vw 24vh 0 2.5px rgba(255, 255, 255, 0.95),
+        
+        /* Medium stars */
+        30vw 16vh 0 1.5px rgba(255, 255, 255, 0.8),
+        55vw 14vh 0 1.5px rgba(255, 255, 255, 0.85),
+        80vw 20vh 0 1.5px rgba(255, 255, 255, 0.8),
+        22vw 30vh 0 1.5px rgba(255, 255, 255, 0.9),
+        50vw 26vh 0 1.5px rgba(255, 255, 255, 0.8),
+        75vw 28vh 0 1.5px rgba(255, 255, 255, 0.85),
+        95vw 24vh 0 1.5px rgba(255, 255, 255, 0.8),
+        35vw 32vh 0 1.5px rgba(255, 255, 255, 0.9),
+        88vw 18vh 0 1.5px rgba(255, 255, 255, 0.85),
+        45vw 10vh 0 1.5px rgba(255, 255, 255, 0.8),
+        
+        /* Small stars - scattered throughout */
+        6vw 10vh 0 1px rgba(255, 255, 255, 0.7),
+        18vw 16vh 0 1px rgba(255, 255, 255, 0.75),
+        45vw 7vh 0 1px rgba(255, 255, 255, 0.7),
+        60vw 18vh 0 1px rgba(255, 255, 255, 0.8),
+        82vw 12vh 0 1px rgba(255, 255, 255, 0.7),
+        12vw 20vh 0 1px rgba(255, 255, 255, 0.75),
+        38vw 22vh 0 1px rgba(255, 255, 255, 0.7),
+        68vw 26vh 0 1px rgba(255, 255, 255, 0.8),
+        88vw 30vh 0 1px rgba(255, 255, 255, 0.7),
+        22vw 34vh 0 1px rgba(255, 255, 255, 0.75),
+        52vw 32vh 0 1px rgba(255, 255, 255, 0.7),
+        92vw 34vh 0 1px rgba(255, 255, 255, 0.8),
+        
+        /* Tiny stars - fill in the gaps */
+        8vw 5vh 0 0.5px rgba(255, 255, 255, 0.6),
+        28vw 3vh 0 0.5px rgba(255, 255, 255, 0.65),
+        48vw 5vh 0 0.5px rgba(255, 255, 255, 0.6),
+        63vw 7vh 0 0.5px rgba(255, 255, 255, 0.7),
+        78vw 9vh 0 0.5px rgba(255, 255, 255, 0.6),
+        33vw 15vh 0 0.5px rgba(255, 255, 255, 0.65),
+        58vw 17vh 0 0.5px rgba(255, 255, 255, 0.6),
+        73vw 19vh 0 0.5px rgba(255, 255, 255, 0.7),
+        13vw 27vh 0 0.5px rgba(255, 255, 255, 0.6),
+        43vw 29vh 0 0.5px rgba(255, 255, 255, 0.65),
+        62vw 31vh 0 0.5px rgba(255, 255, 255, 0.6),
+        98vw 27vh 0 0.5px rgba(255, 255, 255, 0.7),
+        20vw 6vh 0 0.5px rgba(255, 255, 255, 0.7),
+        50vw 9vh 0 0.5px rgba(255, 255, 255, 0.65),
+        32vw 20vh 0 0.5px rgba(255, 255, 255, 0.6),
+        72vw 14vh 0 0.5px rgba(255, 255, 255, 0.7),
+        25vw 28vh 0 0.5px rgba(255, 255, 255, 0.6),
+        58vw 30vh 0 0.5px rgba(255, 255, 255, 0.65),
+        85vw 32vh 0 0.5px rgba(255, 255, 255, 0.6),
+        
+        /* Extended coverage - lower section to bottom */
+        10vw 36vh 0 2px rgba(255, 255, 255, 0.9),
+        35vw 38vh 0 1.5px rgba(255, 255, 255, 0.8),
+        60vw 36vh 0 2px rgba(255, 255, 255, 0.95),
+        85vw 40vh 0 1.5px rgba(255, 255, 255, 0.85),
+        15vw 42vh 0 1px rgba(255, 255, 255, 0.7),
+        42vw 44vh 0 1.5px rgba(255, 255, 255, 0.8),
+        68vw 42vh 0 1px rgba(255, 255, 255, 0.75),
+        90vw 46vh 0 1px rgba(255, 255, 255, 0.7),
+        25vw 48vh 0 2px rgba(255, 255, 255, 0.9),
+        50vw 46vh 0 1.5px rgba(255, 255, 255, 0.85),
+        75vw 48vh 0 1.5px rgba(255, 255, 255, 0.8),
+        5vw 44vh 0 1px rgba(255, 255, 255, 0.7),
+        30vw 50vh 0 1px rgba(255, 255, 255, 0.75),
+        55vw 50vh 0 1px rgba(255, 255, 255, 0.7),
+        80vw 52vh 0 1px rgba(255, 255, 255, 0.8),
+        95vw 50vh 0 0.5px rgba(255, 255, 255, 0.6),
+        20vw 52vh 0 0.5px rgba(255, 255, 255, 0.65),
+        45vw 54vh 0 0.5px rgba(255, 255, 255, 0.6),
+        70vw 54vh 0 0.5px rgba(255, 255, 255, 0.7),
+        12vw 48vh 0 0.5px rgba(255, 255, 255, 0.6),
+        38vw 52vh 0 0.5px rgba(255, 255, 255, 0.65),
+        62vw 48vh 0 0.5px rgba(255, 255, 255, 0.6),
+        88vw 54vh 0 0.5px rgba(255, 255, 255, 0.7),
+        
+        /* Bottom section coverage */
+        18vw 58vh 0 2px rgba(255, 255, 255, 0.9),
+        48vw 60vh 0 1.5px rgba(255, 255, 255, 0.85),
+        72vw 58vh 0 2px rgba(255, 255, 255, 0.9),
+        92vw 62vh 0 1.5px rgba(255, 255, 255, 0.8),
+        8vw 64vh 0 1px rgba(255, 255, 255, 0.75),
+        32vw 66vh 0 1.5px rgba(255, 255, 255, 0.8),
+        58vw 64vh 0 1px rgba(255, 255, 255, 0.7),
+        82vw 68vh 0 1px rgba(255, 255, 255, 0.75),
+        22vw 70vh 0 2px rgba(255, 255, 255, 0.9),
+        52vw 72vh 0 1.5px rgba(255, 255, 255, 0.85),
+        78vw 74vh 0 1.5px rgba(255, 255, 255, 0.8),
+        12vw 76vh 0 1px rgba(255, 255, 255, 0.7),
+        38vw 78vh 0 1px rgba(255, 255, 255, 0.75),
+        65vw 76vh 0 1px rgba(255, 255, 255, 0.7),
+        88vw 80vh 0 1px rgba(255, 255, 255, 0.8),
+        28vw 82vh 0 2px rgba(255, 255, 255, 0.9),
+        55vw 84vh 0 1.5px rgba(255, 255, 255, 0.85),
+        80vw 86vh 0 1.5px rgba(255, 255, 255, 0.8),
+        15vw 88vh 0 1px rgba(255, 255, 255, 0.7),
+        42vw 90vh 0 1px rgba(255, 255, 255, 0.75),
+        68vw 92vh 0 1px rgba(255, 255, 255, 0.7),
+        92vw 94vh 0 1px rgba(255, 255, 255, 0.8),
+        25vw 96vh 0 0.5px rgba(255, 255, 255, 0.65),
+        50vw 98vh 0 0.5px rgba(255, 255, 255, 0.6),
+        75vw 96vh 0 0.5px rgba(255, 255, 255, 0.7),
+        5vw 94vh 0 0.5px rgba(255, 255, 255, 0.6),
+        35vw 92vh 0 0.5px rgba(255, 255, 255, 0.65),
+        60vw 88vh 0 0.5px rgba(255, 255, 255, 0.6),
+        85vw 90vh 0 0.5px rgba(255, 255, 255, 0.7),
+        10vw 82vh 0 0.5px rgba(255, 255, 255, 0.6),
+        45vw 78vh 0 0.5px rgba(255, 255, 255, 0.65),
+        70vw 70vh 0 0.5px rgba(255, 255, 255, 0.6),
+        95vw 68vh 0 0.5px rgba(255, 255, 255, 0.7),
+        20vw 62vh 0 0.5px rgba(255, 255, 255, 0.6),
+        62vw 80vh 0 0.5px rgba(255, 255, 255, 0.65);
+    animation: starBlink 3s ease-in-out infinite;
+}
+
+/* Star Group 2 - 1s delay */
+.star-layer-2::before {
+    animation-delay: 1s;
+    box-shadow:
+        65vw 22vh 0 2px rgba(255, 255, 255, 1),
+        78vw 10vh 0 2px rgba(255, 255, 255, 0.9),
+        52vw 26vh 0 2.5px rgba(255, 255, 255, 0.85);
+}
+
+/* Star Group 3 - 2s delay */
+.star-layer-3::before {
+    animation-delay: 2s;
+    box-shadow:
+        10vw 36vh 0 2px rgba(255, 255, 255, 0.9),
+        35vw 38vh 0 1.5px rgba(255, 255, 255, 0.8),
+        60vw 36vh 0 2px rgba(255, 255, 255, 0.95);
+}
+
+/* Star Group 4 - 3s delay */
+.star-layer-4::before {
+    animation-delay: 3s;
+    box-shadow:
+        18vw 58vh 0 2px rgba(255, 255, 255, 0.9),
+        48vw 60vh 0 1.5px rgba(255, 255, 255, 0.85),
+        72vw 58vh 0 2px rgba(255, 255, 255, 0.9);
+}
+
+@keyframes starBlink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.1;
+    }
+}
+
+/* Alternative blinking for variety - creates a gentle twinkling effect */
+.teaser-marrakesh:hover::before {
+    animation: starTwinkle 1.5s ease-in-out infinite;
+}
+
+@keyframes starTwinkle {
+    0%, 100% {
+        opacity: 0.9;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+}
+
+/* Banner image on top */
+.teaser-marrakesh::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.75);
+    background-image: url("img/banner_10@2x.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* Mobile-optimized banner for smaller screens */
+@media (max-width: 768px) {
+    .teaser-marrakesh::after {
+        background-image: url("");
+    }
+    .teaser-marrakesh .text {
+        font-family: "REM", serif;
+        color: beige;
+        font-size: min(calc(1.0rem + 0.4vw), 20px);
+        text-align: center;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        position: relative;
+        z-index: 5;
+        display: inline-block;
+        padding: 0 20px 0 20px;
+        background-color: rgba(23, 15, 45, 0.533);
+        border-radius: 0px;
+        margin-top: 0.5em;
+    }
+}
+
+/* */
+
+
+
 .teaser-tokyo:before {
     content: "";
     position: absolute;
