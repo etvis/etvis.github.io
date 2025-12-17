@@ -1,10 +1,10 @@
 You are invited to submit relevant manuscripts for consideration in the
-* Ninth Workshop on Eye Tracking and Visualization (ETVIS 2025) *
+* Tenth Workshop on Eye Tracking and Visualization (ETVIS 2026) *
 
-May 26 - May 29, 2025, Tokyo - Japan in conjunction with the Symposium on Eye Tracking Research and Applications (ETRA): https://etra.acm.org/2025/ 
-All accepted papers will be published by ACM as part of the Workshop Proceedings of ETRA 2025.
+June 1st - June 4th, 2026, Marrakech - Morocco in conjunction with the Symposium on Eye Tracking Research and Applications (ETRA): https://etra.acm.org/2026/ 
+All accepted papers will be published by ACM as part of the Workshop Proceedings of ETRA 2026.
 
-The details are appended and also available at https://www.etvis-workshop.org/etvis-2025.
+The details are appended and also available at https://www.etvis-workshop.org/etvis-2026.
 Please feel free to contact us directly for any further enquiry.
 
 Best regards,
@@ -13,27 +13,38 @@ Michael Burch (University of Applied Sciences, Chur, Switzerland)
 Kuno Kurzhals (University of Stuttgart, Germany)
 
 **************************************************************************
-            Ninth Workshop on Eye Tracking and Visualization (ETVIS 2025)                            
-            May 26 - May 29, 2025, Tokyo - Japan
-            in conjunction with ACM ETRA 2025                                                                           
-            https://etra.acm.org/2025/                                                                                            
+            Tenth Workshop on Eye Tracking and Visualization (ETVIS 2026)                            
+            June 1st - June 4th, 2026, Marrakech - Morocco 
+            in conjunction with ACM ETRA 2026                                                                           
+            https://etra.acm.org/2026/                                                                                            
 **************************************************************************
             Contact: etvis.workshop@gmail.com                                                                                   
 **************************************************************************
 ________________
 IMPORTANT DATES
 ________________
-● Submission Due: TBD, 2025
-● Notification: TBD, 2025
-● Camera Ready: TBD, 2025
+● Submission Due: Mar 05, 2026
+● Notification: Mar 23, 2026
+● Camera Ready: Apr 30, 2026
 
 All accepted papers will be published by ACM.
+
+_______________________________________________________
+OPEN ACCESS PUBLISHING MODEL FOR 2026 ACM CONFERENCES
+_______________________________________________________
+
+** Important information on ACM's new open access publishing model for 2026 ACM Conferences! **
+
+From January 1, 2026, all ACM publications will be fully Open Access. 
+Authors may publish via ACM Open or, if their institution does not participate, by paying an Article Processing Charge (APC). 
+As over 2,600 institutions participate in ACM Open, most authors (currently ~76%) will not incur APCs.
+Authors from non-participating institutions must pay an APC unless granted a discretionary waiver by ACM (waivers are limited and criteria-based).
+For 2026 conferences, ACM provides a temporary subsidy: $250 for ACM/SIG members and $350 for non-members.
 
 ______
 SCOPE
 ______
-Broadly, this workshop considers the intersection of eye tracking research with visualization, whether the contributions relate to eye tracking studies 
-of visualizations, or vice versa, visualization techniques for eye tracking.
+Broadly, this workshop considers the intersection of eye tracking research with visualization, whether the contributions relate to eye tracking studies of visualizations, or vice versa, visualization techniques for eye tracking.
 Technological advances in computer vision algorithms and sensor hardware have greatly reduced the implementational and financial costs of eye tracking. 
 Thus, it is unsurprising to witness a significant increase in its use as a research tool in fields beyond the traditional domains of biological vision, 
 psychology, and neuroscience, in particular, in visualization and human-computer interaction research. 
@@ -41,32 +52,38 @@ One of the key challenges lies in the analysis, interaction, and visualization o
 complicated by complementary datasets such as semantic labels, user interactions and/or accompanying physiological sensor recordings. 
 Ultimately, the research objective is to allow eye tracking data to be effectively interpreted in terms of the observer’s decision-making and cognitive processes. 
 To achieve this, it is necessary to draw upon our current understanding of gaze-behavior across various and related fields, from vision and cognition to visualization. 
-All together eye tracking is an important field to be understood, be it in the sense of data analysis and visualization, interaction, or user-based evaluation of visualization.
+Altogether, eye tracking is an important field to be understood, be it in the sense of data analysis and visualization, interaction, or user-based evaluation of visualization.
 
 _______
 TOPICS
 _______
 Manuscripts are solicited on the following topics with an emphasis on the relationship between eye tracking and visualization, including but not limited to the following:
 
-●       Visualization techniques for eye-movement data (inc. spatio-temporal visualization, evolution of gaze patterns, visual analysis of individual behavior, 2D vs. 3D representations of eye-movement data)
-●       Visual analytics of gaze behavior (inc. visual data mining, aggregation, clustering techniques, and metrics for eye-movement data)
-●       Eye-movement data provenance
-●       Standardized metrics for evaluating gaze interactions with visualization
-●       Cognitive models for gaze interactions with visualizations
-●       Novel methods for eye tracking in challenging visualization scenarios
-●       Uncertainty visualization of gaze data
-●       Interactive annotation of gaze and stimulus data
-●       Systems for the visual exploration of eye-movement data
-●       Eye tracking studies that evaluate visualization or visual analytics
-●       Eye tracking in non-WIMP visualization environments, including mobile eye tracking, mobile devices, and large displays
-●       Visualization of eye tracking data in mixed and virtual reality (3df & 6df, 360°)
-●       Visualization applications that rely on eye tracking as an input parameter
+•   Visualization and visual analytics techniques for eye movement data
+•   Eye movement data analysis, visual data mining, aggregation, clustering, and metrics for eye movement data
+•   Eye movement data provenance, big eye movement data
+•   Uncertainty visualization of gaze data
+•   Standardized metrics for evaluating interactions with visualization
+•   Novel methods for eye-tracking in challenging visualization scenarios
+•   Interactive annotation of gaze and stimulus data
+•   Systems for visual exploration of eye movement data
+•   Reports of eye tracking studies evaluating visualization or visual analytics
+•   Eye tracking in non-WIMP visualization environments, including mobile eye tracking, mobile devices, virtual environments, mixed reality, and large displays
+•   Eye tracking-based interaction techniques for visualization
+•   Interpreting eye movement scanpaths from the perspective of human cognitive architecture and perceptuo-motor expertise
+•   Perception in eye tracking studies
+•   Evaluation of cartographic and other spatial visualizations with eye tracking
+•   Inferences that can be drawn from gaze behavior
+•   Cognitive models for inferring user states from gaze behavior with visualizations
+•   Applications that rely on eye-tracking as an adaptive input parameter
+•   Explainable artificial intelligence (XAI) with a focus on eye tracking
 
 ____________
 SUBMISSIONS
 ____________
 Authors are invited to submit original work complying with the ETRA SHORT PAPER format (up to 8 pages in single-column format, any number of references, max. 150 words abstract).
-Also, ensure that the Author Guidelines (https://www.siggraph.org//learn/instructions-authors for SIG sponsored events [sigconf]) are met prior to submission.
+Also, ensure that the Author Guidelines (https://www.siggraph.org/learn/instructions-authors for SIG sponsored events [sigconf]) are met prior to submission.
+** New this year ** Please read and follow the ACM Policy on Authorship (https://www.acm.org/publications/policies/new-acm-policy-on-authorship) regarding the use of Generative AI tools and technologies in ACM published Work. 
 
 _________
 ORGANIZERS
@@ -77,21 +94,17 @@ _________
 ____________
 PAPER CHAIRS
 ____________
-● Minoru Nakayama, Tokyo Institute of Technology, Japan, nakayama@ict.e.titech.ac.jp
-● Yao Wang, University of Stuttgart, Germany, yao.wang@vis.uni-stuttgart.de
-● Zofija Tupikovskaja-Omovie, Manchester Metropolitan University, United Kingdom, z.tupikovskaja-omovie@mmu.ac.uk
+● Jacob Miller, Technical University of Munich, Germany, jacob.miller@tum.de
+● Stanislav Popelka, Palacký University Olomouc, Czech Republic, standa.popelka@gmail.com
 
 __________________
 STEERING COMMITTEE
 __________________
-TBD
+● Michael Burch, University of Applied Sciences, Chur, Switzerland, michael.burch@fhgr.ch
+● Lewis Chuang, Chemnitz University of Technology, Germany, lewis.chuang@phil.tu-chemnitz.de
+● Daniel Weiskopf, University of Stuttgart, Germany, Daniel.Weiskopf@visus.uni-stuttgart.de
 
-___________
-SOCIAL MEDIA CHAIR
-___________
-Ioana Lupascu, Tufts University, United States, Ioana.Lupascu@tufts.edu
-
-___________
+______________
 WEBSITE CHAIR
-___________
+______________
 Maurice Koch, University of Stuttgart, Germany, Maurice.Koch@visus.uni-stuttgart.de
