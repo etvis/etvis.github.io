@@ -222,7 +222,8 @@ h4 {
 .teaser-marrakesh .text a:hover {
     color: lightskyblue;
     text-decoration: none;
-    transition: 0.5s color ease;
+    font-weight: 300;
+    transition: 0.5s font-weight ease;
 }
 
 .teaser-marrakesh {
