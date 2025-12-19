@@ -2,7 +2,7 @@ You are invited to submit relevant manuscripts for consideration in the
 * Tenth Workshop on Eye Tracking and Visualization (ETVIS 2026) *
 
 June 1st - June 4th, 2026, Marrakech - Morocco in conjunction with the Symposium on Eye Tracking Research and Applications (ETRA): https://etra.acm.org/2026/ 
-All accepted papers will be published by ACM as part of the Workshop Proceedings of ETRA 2026.
+All accepted papers will be published by ACM as part of the ETRA 2026 Workshop Proceedings (in ACM DL). 
 
 The details are appended and also available at https://www.etvis-workshop.org/etvis-2026.
 Please feel free to contact us directly for any further enquiry.
@@ -20,26 +20,39 @@ Kuno Kurzhals (University of Stuttgart, Germany)
 **************************************************************************
             Contact: etvis.workshop@gmail.com                                                                                   
 **************************************************************************
-________________
-IMPORTANT DATES
-________________
+
+_________________________________________
+IMPORTANT DATES (AoE - Anywhere on Earth)
+_________________________________________
 ● Submission Due: Mar 05, 2026
 ● Notification: Mar 23, 2026
 ● Camera Ready: Apr 30, 2026
 
 All accepted papers will be published by ACM.
 
-_______________________________________________________
-OPEN ACCESS PUBLISHING MODEL FOR 2026 ACM CONFERENCES
-_______________________________________________________
+_____________________________________
+ACM's TRANSITION TO FULL OPEN ACCESS
+_____________________________________
+** Important update on ACM's new open access publishing model for 2026 ACM Conferences! **
 
-** Important information on ACM's new open access publishing model for 2026 ACM Conferences! **
+Starting January 1, 2026, ACM will fully transition to Open Access. 
+All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. 
+Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). 
+With over 2,600 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 76%).
 
-From January 1, 2026, all ACM publications will be fully Open Access. 
-Authors may publish via ACM Open or, if their institution does not participate, by paying an Article Processing Charge (APC). 
-As over 2,600 institutions participate in ACM Open, most authors (currently ~76%) will not incur APCs.
-Authors from non-participating institutions must pay an APC unless granted a discretionary waiver by ACM (waivers are limited and criteria-based).
-For 2026 conferences, ACM provides a temporary subsidy: $250 for ACM/SIG members and $350 for non-members.
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial waiver. 
+To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review https://www.acm.org/publications/policies/policy-on-discretionary-open-access-apc-waivers.  
+Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+
+Understanding that this change could present financial challenges, ACM has approved a temporary subsidy for 2026 to ease the transition and allow more time for institutions to join ACM Open. 
+The subsidy will offer:
+
+● $250 APC for ACM/SIG members
+● $350 for non-members
+
+This represents a 65% discount, funded directly by ACM. 
+Authors are encouraged to help advocate for their institutions to join ACM Open during this transition period.
+This temporary subsidized pricing will apply to all conferences scheduled for 2026.
 
 ______
 SCOPE
