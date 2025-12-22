@@ -24,16 +24,16 @@ Kuno Kurzhals (University of Stuttgart, Germany)
 _________________________________________
 IMPORTANT DATES (AoE - Anywhere on Earth)
 _________________________________________
-● Submission Due: Mar 05, 2026
-● Notification: Mar 23, 2026
-● Camera Ready: Apr 30, 2026
+● Submission Due: Mar 05, 2026 (tentative)
+● Notification: Mar 23, 2026 (tentative)
+● Camera Ready: Apr 30, 2026 (tentative)
 
 All accepted papers will be published by ACM.
 
 _____________________________________
 ACM's TRANSITION TO FULL OPEN ACCESS
 _____________________________________
-** Important update on ACM's new open access publishing model for 2026 ACM Conferences! **
+** Important update on ACM's new open access publishing model for 2026 ACM Conferences **
 
 Starting January 1, 2026, ACM will fully transition to Open Access. 
 All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. 
@@ -95,8 +95,10 @@ ____________
 SUBMISSIONS
 ____________
 Authors are invited to submit original work complying with the ETRA SHORT PAPER format (up to 8 pages in single-column format, any number of references, max. 150 words abstract).
+ETVIS uses the Precision Conference System (PCS) through ETRA 2026 to handle the submission and reviewing process. 
+
 Also, ensure that the Author Guidelines (https://www.siggraph.org/learn/instructions-authors for SIG sponsored events [sigconf]) are met prior to submission.
-** New this year ** Please read and follow the ACM Policy on Authorship (https://www.acm.org/publications/policies/new-acm-policy-on-authorship) regarding the use of Generative AI tools and technologies in ACM published Work. 
+Please read and follow the ACM Policy on Authorship (https://www.acm.org/publications/policies/new-acm-policy-on-authorship) regarding the use of Generative AI tools and technologies in ACM published Work. 
 
 _________
 ORGANIZERS
