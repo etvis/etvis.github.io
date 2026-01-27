@@ -1,0 +1,135 @@
+Dear colleagues,
+
+You are invited to submit relevant manuscripts for consideration in the
+* Tenth Workshop on Eye Tracking and Visualization (ETVIS 2026) *
+
+June 1st - June 4th, 2026, Marrakech - Morocco in conjunction with the Symposium on Eye Tracking Research and Applications (ETRA): https://etra.acm.org/2026/ All accepted papers will be published by ACM as part of the ETRA 2026 Workshop Proceedings (in ACM DL).
+
+The details are appended and also available at https://www.etvis-workshop.org/etvis-2026.
+Please feel free to contact us directly for any further enquiry.
+
+Best regards,
+
+Kuno Kurzhals (University of Stuttgart, Germany)
+Michael Burch (University of Applied Sciences, Chur, Switzerland) 
+
+**************************************************************************
+            Tenth Workshop on Eye Tracking and Visualization (ETVIS 2026)
+            June 1st - June 4th, 2026, Marrakech - Morocco
+            in conjunction with ACM ETRA 2026
+            https://etra.acm.org/2026/
+**************************************************************************
+            Contact: etvis.workshop@gmail.com
+**************************************************************************
+
+_________________________________________
+IMPORTANT DATES (deadlines updated!) (AoE - Anywhere on Earth)
+_________________________________________
+
+● Submission Due: Mar 02, 2026 
+● Notification: Mar 23, 2026 
+● Camera Ready: Mar 30, 2026
+
+All accepted papers will be published by ACM.
+
+_____________________________________
+ACM's TRANSITION TO FULL OPEN ACCESS
+_____________________________________
+** Important update on ACM's new open access publishing model for 2026 ACM Conferences **
+
+Starting January 1, 2026, ACM will fully transition to Open Access.
+All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access.
+Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs).
+With over 2,600 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 76%).
+
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial waiver.
+To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review https://www.acm.org/publications/policies/policy-on-discretionary-open-access-apc-waivers.
+Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+
+Understanding that this change could present financial challenges, ACM has approved a temporary subsidy for 2026 to ease the transition and allow more time for institutions to join ACM Open.
+The subsidy will offer:
+
+● $250 APC for ACM/SIG members
+● $350 for non-members
+
+This represents a 65% discount, funded directly by ACM.
+Authors are encouraged to help advocate for their institutions to join ACM Open during this transition period.
+This temporary subsidized pricing will apply to all conferences scheduled for 2026.
+
+______
+SCOPE
+______
+Broadly, this workshop considers the intersection of eye tracking research with visualization, whether the contributions relate to eye tracking studies of visualizations, or vice versa, visualization techniques for eye tracking.
+Technological advances in computer vision algorithms and sensor hardware have greatly reduced the implementational and financial costs of eye tracking.
+Thus, it is unsurprising to witness a significant increase in its use as a research tool in fields beyond the traditional domains of biological vision, psychology, and neuroscience, in particular, in visualization and human-computer interaction research.
+One of the key challenges lies in the analysis, interaction, and visualization of complex spatio-temporal datasets of gaze behavior, which is further complicated by complementary datasets such as semantic labels, user interactions and/or accompanying physiological sensor recordings.
+Ultimately, the research objective is to allow eye tracking data to be effectively interpreted in terms of the observer’s decision-making and cognitive processes.
+To achieve this, it is necessary to draw upon our current understanding of gaze-behavior across various and related fields, from vision and cognition to visualization.
+Altogether, eye tracking is an important field to be understood, be it in the sense of data analysis and visualization, interaction, or user-based evaluation of visualization.
+
+_______
+TOPICS
+_______
+Manuscripts are solicited on the following topics with an emphasis on the relationship between eye tracking and visualization, including but not limited to the following:
+
+•   Visualization and visual analytics techniques for eye movement data
+•   Eye movement data analysis, visual data mining, aggregation, clustering, and metrics for eye movement data
+•   Eye movement data provenance, big eye movement data
+•   Uncertainty visualization of gaze data
+•   Standardized metrics for evaluating interactions with visualization
+•   Novel methods for eye-tracking in challenging visualization scenarios
+•   Interactive annotation of gaze and stimulus data
+•   Systems for visual exploration of eye movement data
+•   Reports of eye tracking studies evaluating visualization or visual analytics
+•   Eye tracking in non-WIMP visualization environments, including mobile eye tracking, mobile devices, virtual environments, mixed reality, and large displays
+•   Eye tracking-based interaction techniques for visualization
+•   Interpreting eye movement scanpaths from the perspective of human cognitive architecture and perceptuo-motor expertise
+•   Perception in eye tracking studies
+•   Evaluation of cartographic and other spatial visualizations with eye tracking
+•   Inferences that can be drawn from gaze behavior
+•   Cognitive models for inferring user states from gaze behavior with visualizations
+•   Applications that rely on eye-tracking as an adaptive input parameter
+•   Explainable artificial intelligence (XAI) with a focus on eye tracking
+
+NEW THIS YEAR:
+•	Position/road map papers for ETVIS related topics
+
+____________
+SUBMISSIONS
+____________
+Authors are invited to submit original work complying with the ETRA SHORT PAPER format (up to 8 pages in single-column format, any number of references, max. 150 words abstract).
+ETVIS uses the Precision Conference System (PCS) through ETRA 2026 to handle the submission and reviewing process.
+
+Also, ensure that the Author Guidelines (https://www.siggraph.org/learn/instructions-authors for SIG sponsored events [sigconf]) are met prior to submission.
+Please read and follow the ACM Policy on Authorship (https://www.acm.org/publications/policies/new-acm-policy-on-authorship) regarding the use of Generative AI tools and technologies in ACM published Work.
+
+NEW THIS YEAR: 	We will allow authors to submit position/road map papers about ETVIS related topics.
+				In contrast to the regular research papers, this type should foster discussion and 
+				envision potential future directions for the research in our field.
+				We include an additional category of paper submissions: position/road map papers about ETVIS related topics.
+
+_________
+ORGANIZERS
+_________
+● Kuno Kurzhals, University of Stuttgart, Germany, Kuno.Kurzhals@visus.uni-stuttgart.de
+● Michael Burch, University of Applied Sciences, Chur, Switzerland, michael.burch@fhgr.ch 
+
+____________
+PAPER CHAIRS
+____________
+● Jacob Miller, Technical University of Munich, Germany, jacob.miller@tum.de 
+● Stanislav Popelka, Palacký University Olomouc, Czech Republic, standa.popelka@gmail.com
+● Günter Wallner, Johannes Kepler University Linz, Austria, guenter.wallner@jku.at
+
+__________________
+STEERING COMMITTEE
+__________________
+● Michael Burch, University of Applied Sciences, Chur, Switzerland, michael.burch@fhgr.ch 
+● Lewis Chuang, Chemnitz University of Technology, Germany, lewis.chuang@phil.tu-chemnitz.de 
+● Daniel Weiskopf, University of Stuttgart, Germany, Daniel.Weiskopf@visus.uni-stuttgart.de
+
+______________
+WEBSITE CHAIR
+______________
+Maurice Koch, University of Stuttgart, Germany, Maurice.Koch@visus.uni-stuttgart.de
+
