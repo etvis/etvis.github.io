@@ -471,6 +471,15 @@ h4 {
     pointer-events: none;
 }
 
+/* Mobile-optimized program list */
+@media (max-width: 768px) {
+    .tbl-right ul {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
 /* Mobile-optimized banner for smaller screens */
 @media (max-width: 768px) {
     .teaser-marrakesh::after {
@@ -691,6 +700,23 @@ a:hover {
 
 .tbl-right ul li {
     margin: .5em 0;
+}
+
+.program-detail {
+    margin-top: 0.5em;
+}
+
+.featured-cell {
+    background-color: rgba(169, 138, 14, 0.08);
+}
+
+.featured-cell:first-child {
+    border-left: 3px solid #A98A0E;
+    padding-left: 0.75em;
+}
+
+.featured-cell:last-child {
+    border-right: 3px solid #A98A0E;
 }
 
 .tbl-sdetails {
